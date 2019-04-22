@@ -1,0 +1,69 @@
+/*CSS */
+
+* 
+{
+    margin: 0; 
+    padding 0; 
+    font-family: 'Indie Flower', cursive;
+    user-select: none;
+    
+}
+html {background-image: url(../img/peppa.jpg); background-size: 1460px}
+
+.btn
+{
+    padding: 10px;
+    margin: 10px;
+    color: darkgoldenrod;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h2{
+    font-size: 65px;
+    text-align: center;
+    height: 125px;
+}
+span
+{
+    font-size: 113px; 
+}
+
+
+body
+{
+    background-color: skyblue;
+    width: 1000px;
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px
+}
+
+div[id^="row"] div 
+{
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    float: left;
+}
+
+div[id^="row"] div:first-child {border-left: none;}
+div[id^="row"] div:last-child {border-right: none;}
+div[id="row1"] div {border-top: none;}
+div[id="row3"] div {border-bottom: none;}
+
+div[id^="row"]
+{
+    clear: float;
+    width: 608px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+div.board
+{
+    width: 608px;
+    overflow: hidden;
+    margin: 0 auto;
+}
